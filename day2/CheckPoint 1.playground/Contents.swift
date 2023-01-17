@@ -1,7 +1,7 @@
 import Cocoa
 
 let temperatureCheck:Decimal = 140.0
-let tempType:String = "d"
+let tempType:String = "C"
 
 if tempType == "C" {
     let ctoF = (temperatureCheck * 1.8) + 32
@@ -26,5 +26,6 @@ if tempType == "F" {
 if tempType != "C" && tempType != "F" {
     print("Please enter a valid temperature type")
 }
+//text displaying hello world
 
 
